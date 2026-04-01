@@ -4,7 +4,7 @@ name: Concat Google Sheets
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 1 * * *"    # 08:00 น. ทุกวัน (UTC+7)
+    - cron: "0 6 * * *"    # 08:00 น. ทุกวัน (UTC+7)
 
 jobs:
   concat:
