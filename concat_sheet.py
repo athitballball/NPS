@@ -7,7 +7,7 @@ from googleapiclient.discovery import build
 # --- Config ---
 SPREADSHEET_ID    = os.environ["SPREADSHEET_ID"]
 SOURCE_SHEETS     = ["opd", "IPD"]
-TARGET_COLUMNS    = ["OS004", "date_create", "cguid"]
+TARGET_COLUMNS    = ["cguid", "date_create", "OS004"]
 OUTPUT_SHEET_NAME = "NPS"
 
 SCOPES = ["https://www.googleapis.com/auth/spreadsheets"]
